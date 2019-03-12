@@ -24,9 +24,9 @@ class Character(object):
 
 	fat_patt = re.compile("(father|fat)=(\d+)")
 	mot_patt = re.compile("(mother|mot)=(\d+)")
-	gender_string = "female=yes"
+	gender_string = "fem=yes"
 	bn_patt = re.compile("(birth_name|bn)=\"(.*)\"")
-	dyn_patt = re.compile("dynasty=(\d+)")
+	dyn_patt = re.compile("dnt=(\d+)")
 	holding_pattern_1 = re.compile('primary=\s*{\s*title="(.*?)"')
 	holding_pattern_2 = re.compile('old_holding="(.*?)"')
 	#def readable_title():
